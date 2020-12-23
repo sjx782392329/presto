@@ -86,11 +86,11 @@
         </artifact>
     </artifactSet>
 
-    <artifactSet to="plugin/kafka">
-        <artifact id="${project.groupId}:presto-kafka:zip:${project.version}">
-            <unpack />
-        </artifact>
-    </artifactSet>
+<!--    <artifactSet to="plugin/kafka">-->
+<!--        <artifact id="${project.groupId}:presto-kafka:zip:${project.version}">-->
+<!--            <unpack />-->
+<!--        </artifact>-->
+<!--    </artifactSet>-->
 
     <artifactSet to="plugin/kudu">
         <artifact id="${project.groupId}:presto-kudu:zip:${project.version}">
@@ -241,11 +241,11 @@
             <unpack />
         </artifact>
     </artifactSet>
-    <artifactSet to="plugin/presto-pinot">
-        <artifact id="${project.groupId}:presto-pinot:zip:${project.version}">
-            <unpack />
-        </artifact>
-    </artifactSet>
+<!--    <artifactSet to="plugin/presto-pinot">-->
+<!--        <artifact id="${project.groupId}:presto-pinot:zip:${project.version}">-->
+<!--            <unpack />-->
+<!--        </artifact>-->
+<!--    </artifactSet>-->
 
     <artifactSet to="plugin/druid">
         <artifact id="${project.groupId}:presto-druid:zip:${project.version}">
